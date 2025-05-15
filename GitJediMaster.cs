@@ -9,6 +9,11 @@ public class GitJediMaster
     public int Id { get; set; }
 
     [Required, StringLength(100)]
-    [Display(Name="Jedi Name")]
+    [Display(Name = "Jedi Name")]
     public string Name { get; set; }
+
+    [Required]
+    public int Age { get; set; }
+    
+    public string Password { get; set; }
 }
