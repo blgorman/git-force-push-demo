@@ -11,7 +11,9 @@ public class GitJediMaster
     [Required, StringLength(100)]
     [Display(Name = "Jedi Name")]
     public string Name { get; set; }
-    
+
     [Required]
     public int Age { get; set; }
+    
+    public string Password { get; set; }
 }
